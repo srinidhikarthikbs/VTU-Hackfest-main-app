@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:background="#F50057"
+        android:id="@+id/ll1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.05"></LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.95"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:text="Login"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#22000000"
+        android:gravity="center"
+        android:visibility="visible"
+        android:animateLayoutChanges="true"
+        android:id="@+id/ll2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:src="@mipmap/user"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hint="Email ID"
+                    android:textSize="20sp"
+                    android:id="@+id/tv1"
+                    android:background="@drawable/edit_text_design"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hint="Password"
+                    android:password="true"
+                    android:textSize="20sp"
+                    android:id="@+id/tv2"
+                    android:background="@drawable/edit_text_design"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"></LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:text="  Login  "
+                android:id="@+id/login"
+                android:background="@drawable/guest_login_button_design"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

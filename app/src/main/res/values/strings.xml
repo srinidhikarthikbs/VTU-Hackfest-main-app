@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">vtuhack</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_state</item>
+        <item>@string/title_district</item>
+        <item>@string/title_taluk</item>
+        <item>@string/title_school</item>
+    </string-array>
+
+    <string name="profile">Profile</string>
+    <string name="credits">Credits</string>
+    <string name="performance">Performance</string>
+
+    <string-array name="student_labels">
+        <item>@string/profile</item>
+        <item>@string/credits</item>
+        <item>@string/performance</item>
+
+    </string-array>
+
+    <string name="title_profile">Profile</string>
+    <string name="title_credits">Credits</string>
+    <string name="title_performance">Perfoemance</string>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_state">State</string>
+    <string name="title_district">District</string>
+    <string name="title_taluk">Taluk</string>
+    <string name="title_school">School</string>
+</resources>
